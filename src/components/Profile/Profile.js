@@ -1,3 +1,6 @@
+//пакет react
+//уже не нужен в 17 версии React. Теперь используем jsx.
+import React from "react";
 import PropTypes from "prop-types";
 import defaultAvatar from "../../images/default-avatar.svg";
 import styles from './Profile.module.css';
@@ -28,10 +31,6 @@ const Profile = ({ name, tag, location, avatar = defaultAvatar, stats }) => (
     </ul>
   </div>
 );
-
-Profile.defaultProps = {
-  avatar: defaultAvatar,
-};
 
 Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
