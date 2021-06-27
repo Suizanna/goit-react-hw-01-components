@@ -4,6 +4,7 @@ import user from './components/Profile/user.json';
 import Statistics from "./components/Statistics/Statistics";
 import statisticalData from "./components/Statistics/statistical-data.json";
 
+import Container from './components/Container/Container';
 
 import FriendList from './components/FriendList/FriendList';
 import friends from './components/FriendList/friends.json';
@@ -13,7 +14,7 @@ import transactions from "./components/TransactionHistory/transactions.json";
 
 //главный компонент. один файл, один компонент. пропсы
 const App = () => (
-  <>
+  <Container>
     <Profile
       name={user.name}
       tag={user.tag}
@@ -26,7 +27,7 @@ const App = () => (
     <Statistics stats={statisticalData} />;
     <FriendList friends={friends} />,
     <TransactionHistory items={transactions} />
-  </>
+  </Container>
 );
 
 //это модуль и из него нужно экспорт компонент

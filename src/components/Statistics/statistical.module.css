@@ -9,6 +9,7 @@
   box-shadow: var(--boxShadow);
   transition: transform 250ms var(--timingFn);
 }
+
 .statistics:hover,
 .statistics:focus {
   transform: scale(1.1);

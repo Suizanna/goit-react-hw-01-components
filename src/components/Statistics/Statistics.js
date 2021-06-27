@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import RGB from './getRandomColor';
 import styles from './statistical.module.css';
 
 
@@ -11,7 +12,7 @@ const Statistics = ({ title, stats }) => (
 
     <ul className={styles.stat_list}>
       {stats.map(stat => (
-        <li className={styles.item} key={stat.id}>
+        <li className={styles.item} key={stat.id} style={{ backgroundColor: `${RGB()}` }}>
           <span className={styles.label}>{stat.label}</span>
           <span className={styles.percentage}>{stat.percentage}%</span>
         </li>

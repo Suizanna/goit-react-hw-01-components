@@ -1,23 +1,9 @@
 /* @import-normalize; */
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 :root {
   --primaryTextColor: #212121;
   --secTextColor: #a0aab5;
-  --bgColorContainer: #e7ecf2;
+ --bgColorContainer: #e7ecf2;
   --bgColorStats: #f3f6f9;
   --borderColor: #e4e9f0;
   --boxShadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
