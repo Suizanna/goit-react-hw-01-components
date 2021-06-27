@@ -1,0 +1,48 @@
+.history {
+ margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  cursor: pointer;
+  box-shadow: var(--boxShadow);
+  transition: transform 300ms var(--timingFn);
+    
+  border: 2px solid dimgray;
+  border-collapse: collapse;
+  text-transform: capitalize;
+}
+
+.history:hover,
+.history:focus {
+  transform: scale(1.05);
+}
+
+.heading {
+  height: 40px;
+  color: #fff;
+  background-color:  #00bcd5;
+}
+
+ tbody {
+  text-align: center;
+  border: 2px solid dimgray;
+}
+
+tbody td:not(:last-child) {
+  border-right: 2px solid dimgray;
+}
+
+ tr:nth-child(even) {
+  background-color: ghostwhite;
+} 
+
+th,
+td {
+  padding: 20px;
+}
+
+
+.cell {
+  width: 200px;
+  padding: 10px 0;
+}
+  
