@@ -1,10 +1,9 @@
-// Компонент должен принимать один проп friends - массив объектов друзей.
-// Компонент должен создавать DOM следующей структуры.
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './friendList.module.css';
 
+// Компонент должен принимать один проп friends - массив объектов друзей.
+// Компонент должен создавать DOM следующей структуры.
 
 const FriendList = ({ friends }) => (
     <ul className={styles.friend_list}>
