@@ -1,8 +1,17 @@
-
 .statistics {
 	width: 335px;
     margin: auto;
     border: solid 1px rgb(211, 221, 221);
+  margin-top: 50px;
+  padding-top: 25px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: var(--boxShadow);
+  transition: transform 250ms var(--timingFn);
+}
+.statistics:hover,
+.statistics:focus {
+  transform: scale(1.1);
 }
 
 .title {
