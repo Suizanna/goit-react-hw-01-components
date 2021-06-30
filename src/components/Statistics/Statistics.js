@@ -6,6 +6,7 @@ import styles from './statistical.module.css';
 
 //Компонент должен создавать DOM элемент следующей структуры.Шаблон, который хочу рендерит
 //Компонент должен принимать два пропа title и stats, заголовок и объект статистики.
+
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
     <h2 className={styles.title}>{title}</h2>
@@ -22,7 +23,7 @@ const Statistics = ({ title, stats }) => (
 );
 
 Statistics.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
