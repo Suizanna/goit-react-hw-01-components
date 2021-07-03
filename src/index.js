@@ -1,6 +1,5 @@
 import React from "react";
-
-//пакет react-dom рендерит react-элементы в настоящие DOM-дерево
+//пакет react-dom рендерит react-элементы в настоящее DOM-дерево
 import ReactDOM from "react-dom"; // есть метод ReactDOM.render /метод рендерит компонент App 
 import App from "./App";
 import 'modern-normalize/modern-normalize.css';
@@ -16,7 +15,7 @@ ReactDOM.render(
 // 2 вар метод рендерит компонент App 
 // ReactDOM.render(<App />, document.querySelector('#root'));
 
-//<React.StrictMode>  это компонент оборачиваетвсе приложение в строгий режим 
+//<React.StrictMode>  это компонент оборачивает все приложение в строгий режим 
 
 
 
