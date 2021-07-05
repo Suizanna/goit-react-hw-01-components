@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 import RGB from './getRandomColor';
 import styles from './statistical.module.css';
 
@@ -10,7 +10,7 @@ import styles from './statistical.module.css';
 function Statistics({ title, stats }) {
   return (
     <section className={styles.statistics}>
-      {title && <h2 className={styles.title}>{title}</h2>} //title - если он не передан, не рендериться разметка <h2>.
+    {title && <h2 className={styles.title}>{title}</h2>}  
 
       <ul className={styles.stat_list}>
         {stats.map(stat => (
@@ -33,7 +33,9 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     }),
   ),
-};
+}; 
 
-export default Statistics;
+export default Statistics; 
 
+
+      
